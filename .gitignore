@@ -1,0 +1,6 @@
+virtualenv_mapc
+
+static/bundle.js
+
+client/node_modules
+client/node_modules/**
