@@ -10,6 +10,7 @@ packages = [{include = "mapc_exercise"}]
 [tool.poetry.dependencies]
 python = "^3.8"
 Flask = "^2.2.2"
+click = "^8.1.3"
 
 
 [tool.poetry.group.dev.dependencies]

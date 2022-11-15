@@ -1,9 +1,12 @@
 # Technical Challenge: Bike Share Data Mapping
 ## TODO
-* [ ] Finish initial dev setup
+* [X] Finish initial dev setup
 * [ ] Clean up README and add links
 * [ ] Create GitHub repo
 * [ ] Add design/notes doc (markdown)
+* [ ] Satisfy Must Have requirements
+* [ ] Satisfy Should Have requirements
+* [ ] Satisfy Could Have requirements
 
 ## Task Overview
 MAPC Digital wants to help communities better take advantage of bike share open data made available by Bluebikes on the Bluebikes system data page.
