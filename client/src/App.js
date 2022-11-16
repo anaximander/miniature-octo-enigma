@@ -1,4 +1,4 @@
-import BikeMap from './components/BikeMap';
+import BikeMap from './containers/BikeMap';
 
 function App() {
   return (

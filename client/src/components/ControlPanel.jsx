@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 
-// TODO: Fix positioning
 const ControlPanelBase = styled.div`
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   position: absolute;
   top: 0;
   left: 0;
@@ -18,14 +18,21 @@ const ControlPanelBase = styled.div`
 
 const PanelHeader = styled.h2`
   font-size: 24px;
-  margin: 0px 5px;
+  margin: 0px 5px 10px 5px;
   padding: 0px;
+  border-bottom: 1px solid black;
 `;
 
 const ControlLabel = styled.label`
+  display: block;
   font-size: 12px;
-  margin: 0px 5px;
+  margin: 0px 10px 0px 5px;
   padding: 0px;
+`;
+
+const Control= styled.div`
+  display: flex;
+  align-items: center;
 `;
 
 const ControlPanel = (props) => {
@@ -33,14 +40,14 @@ const ControlPanel = (props) => {
     <ControlPanelBase>
       <PanelHeader>{props.header}</PanelHeader>
       {props.controls.map(c => 
-        <div key={c.number}>
+        <Control key={c.number}>
           <ControlLabel>{c.label}</ControlLabel>
           <select multiple={true} onChange={(e) => {
             c.onChange([...e.target.selectedOptions].map(o => o.value));
           }}>
             {c.options.map(o => <option key={o}>{o}</option>)}
           </select>
-        </div>
+        </Control>
       )}
     </ControlPanelBase>
   );
