@@ -2,10 +2,13 @@
 ## TODO
 * [X] Finish initial dev setup
 * [ ] Clean up README and add links
-* [ ] Create GitHub repo
+* [X] Create GitHub repo
 * [ ] Add design/notes doc (markdown)
-* [ ] Satisfy Must Have requirements
-* [ ] Satisfy Should Have requirements
+* [X] Satisfy Must Have requirements
+* [o] Satisfy Should Have requirements
+  * [X] Stations per district
+  * [X] District(s) summary data
+  * [ ] Trip data
 * [ ] Satisfy Could Have requirements
 
 ## Task Overview
