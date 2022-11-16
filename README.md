@@ -11,6 +11,17 @@
   * [ ] Trip data
 * [ ] Satisfy Could Have requirements
 
+## Future work and improvements
+* [ ] Add more scripts to parse/transform data from CSVs (minimize data processing in frontend)
+* [ ] Serve (cleaned + preprocessed + versioned) data from API, make use of python backend and DB+cache
+* [ ] Refactor state/actions/reducers into their own files
+* [ ] Improve styling, consider mobile and a11y
+* [ ] Improve map features (e.g. enrich with polygons for districts, re-add clustering)
+* [ ] Make user stories and add features that satisfy more use cases
+  * [ ] Heatmap of most-used stations?
+  * [ ] Present numeric data in tabular format and support search/filter/sort
+  * [ ] Add tooltips and help page(s)
+
 ## Task Overview
 MAPC Digital wants to help communities better take advantage of bike share open data made available by Bluebikes on the Bluebikes system data page.
 
