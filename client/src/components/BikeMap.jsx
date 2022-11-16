@@ -101,6 +101,7 @@ const BikeMap = () => {
           "circle-stroke-width": 5 
         }
       });
+      /*
       map.addLayer({
         id: 'station-count',
         type: 'symbol',
@@ -115,6 +116,7 @@ const BikeMap = () => {
           'text-size': 12
         }
       });
+      */
 
     })
 
