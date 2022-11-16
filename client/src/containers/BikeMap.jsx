@@ -7,7 +7,8 @@ import DistrictSummary from '../components/DistrictSummary'
 import geoJson from "../components/data.json"; // TODO: Pull from server
 
 
-mapboxgl.accessToken = 'pk.eyJ1IjoianRtY2tlbnppZSIsImEiOiJjbGFnNjE1djkwODJ3M3FueXpvaXZxdHRnIn0.W4aMDWV9jx1L_tmIRyatSw';
+// FIXME: Can't put this in source control! Pull from env var instead
+mapboxgl.accessToken = 'pk.eyJ1IjoianRtY2tlbnppZSIsImEiOiJjbGFqdmw0ZjYwNGdkM3BwNXIwN21nNDcyIn0.66B3_VUFKgWJ4HG9ARPTjA';
 
 const MapBase = styled.div`
   position: absolute;
